@@ -9,6 +9,7 @@
 ### Introduction/Project Overview
 The goal of this project was to analyze sales for a retail store over the course of a year. By analyzing the categories with the most sales and how sales were impacted by various aspects, I was able to develop recommendations on future marketing efforts to maximize profits. 
 
+
 ### Data Sources
 Retail sales data from Kaggle.
 
