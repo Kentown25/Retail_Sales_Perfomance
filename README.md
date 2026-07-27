@@ -14,7 +14,7 @@ The goal of this project was to analyze sales for a retail store over the course
 Retail sales data from Kaggle.
 
 ### Tools
-- Goodle Sheets: Data Cleaning and Analysis [Spreadsheet](link)
+- Google Sheets: Data Cleaning and Analysis [Spreadsheet](link)
 - Tableau: Creating charts 
 
 ### Data Cleaning/ Preparation
@@ -25,6 +25,8 @@ List questions answered in data analysis: [Queries](https://console.cloud.google
 1. How many categores?
 2. Which category had the most amount of sales?
 3. What gender had the most amount of sales?
+Here is my dashboard created using Tableau:
+![Dashboard](dashboard.png)
 
 ## Results/Main Takeaways
 List three main findings in numbered format 
