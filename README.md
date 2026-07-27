@@ -1,4 +1,4 @@
-# Retail Sales Performance Project
+# Uncovering Retail Sales Performance in 2023
 
 ## Table of Contents 
 
@@ -6,8 +6,8 @@
 2. [Recommendations](#recommendations)
 3. 
 
-### Introduction/Project Overview
-The goal of this project was to analyze sales for a retail store over the course of a year. By analyzing the categories with the most sales and how sales were impacted by various aspects, I was able to develop recommendations on future marketing efforts to maximize profits. 
+### Project Overview/Problem
+I analyzed sales performance of a retail store over the course of a year. The goal was to identify what area to focus marketing efforts on to maximize profits.  By analyzing the categories with the most sales and how sales were impacted by various aspects.I was able to develop recommendations on future marketing efforts to maximize profits. 
 
 
 ### Data Sources
