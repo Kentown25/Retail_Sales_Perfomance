@@ -26,7 +26,9 @@ List questions answered in data analysis: [Queries](https://console.cloud.google
 2. Which category had the most amount of sales?
 3. What gender had the most amount of sales?
 Here is my dashboard created using Tableau:
-![Dashboard](dashboard.png)
+
+![Dashboard Preview](Dashboard.png)
+
 
 ## Results/Main Takeaways
 List three main findings in numbered format 
