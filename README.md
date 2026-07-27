@@ -1,17 +1,24 @@
-# Uncovering Retail Sales Performance in 2023
+# Analyzing Retail Sales Performance and Customer Demographics 
 
 ## Table of Contents 
 
-1. [Introduction/Project Overview](#introduction/project_overview)
-2. [Recommendations](#recommendations)
-3. 
+1. [Project Overview](#project-overview)
+2. [Key Findings](#key-findings)
+3. [Data Description](#data-description)
+4. [Recommendations](#recommendations)
+5. 
 
-### Project Overview/Problem
-I analyzed sales performance of a retail store over the course of a year. The goal was to identify what area to focus marketing efforts on to maximize profits.  By analyzing the categories with the most sales and how sales were impacted by various aspects.I was able to develop recommendations on future marketing efforts to maximize profits. 
+### Project Overview
+I analyzed sales performance of a retail store over the course of a year. The goal was to identify what area to focus marketing efforts on to maximize profits.  By analyzing the categories with the most sales and how sales were impacted by various aspects, I was able to develop recommendations on future marketing efforts to maximize profits. 
+
+### Key Findings
+I found that Electronics had the most amount of sales which consisted of mostly men. 
 
 
-### Data Sources
-Retail sales data from Kaggle.
+### Data Description
+- Data Source: Kaggle
+- Key Variables:
+- Data Limitations: 1 year of data (2023)
 
 ### Tools
 - Google Sheets: Data Cleaning and Analysis [Spreadsheet](link)
