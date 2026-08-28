@@ -1,14 +1,26 @@
-# Analyzing Retail Sales Performance and Customer Demographics 
+# Analyzing Retail Sales Performance and Customer Demographics (2023) 
 
 ## Table of Contents 
 
-1. [Project Overview](#project-overview)
+1. [Introduction](#introduction)
 2. [Key Findings](#key-findings)
 3. [Data Description](#data-description)
 4. [Recommendations](#recommendations)
 5. 
 
-### Project Overview
+###Introduction
+This project explores sales performance and customer demographics of a retail store across three major categories: Clothing, Electronics, and Beauty.
+
+The store has one year of data on date of sales, gender & age of customers, price per unit, category, quantity purchased, and total amount of sales. The goal of this project is to analyze this data to provide key insights and recommendations to increase future sales performance. 
+
+Tools Used: Excel and Tableau 
+
+Data Cleaning & Preparation was done in Excel (provide link)
+
+The raw dataset, cleaned dataset, and exploratory pivot tables used during the inspection phase are available in the project repository (provide link).
+
+An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+
 I analyzed sales performance of a retail store over the course of a year. The goal was to identify what area to focus marketing efforts on to maximize profits.  By analyzing the categories with the most sales and how sales were impacted by various aspects, I was able to develop recommendations on future marketing efforts to maximize profits. 
 
 ### Key Findings
