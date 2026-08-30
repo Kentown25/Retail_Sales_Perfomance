@@ -6,7 +6,9 @@
 2. [Data Structure](#data-structure)
 3. [Executive Summary](#executive-summary)
 4. [Insights Deep Dive](#insights-deep-dive)
-5. 
+5. [Recommendations](#recommendations)
+6. [Assumptions & Limitations](assumptions-&-limitations)
+7. [Conclusion & Next Steps](conclusion-&-next-steps)
 
 ### Introduction
 This project explores sales performance and customer demographics of a retail store across three major categories: Clothing, Electronics, and Beauty.
@@ -28,17 +30,17 @@ Insights and recommendations are provided on the following key areas:
 - Key Variables: Transaction ID, Date. Customer ID, Age, Gender. Product Category, Quantity, Price per Unit, and Total Amount.
 - Data Limitations: 1 year of data (2023)
 
-### Executive Summary (Include dashboard link)
+### Executive Summary
 - Category Performance: Electronics generated the highest total sales, however sales distribution is balanced across categories. 
 - Gender Insights: Females contributed more in total sales than males. However, there was no significant difference (<5%).
-- Age Group Insights : Age of customers ranged from 18-64. There was no significant difference in total sales across age groups.  Most sales for beauty were from individuals ages 45-54. Most sales from Clothing were from individuals ages 25-34. Most sales from Electronics were from individuals ages 55+ (38k) and 35-44(36k)
+- Age Group Insights: Age of customers ranged from 18-64. There was no significant difference in total sales across age groups.  Most sales for beauty were from individuals ages 45-54. Most sales from Clothing were from individuals ages 25-34. Most sales from Electronics were from individuals ages 55+ (38k) and 35-44(36k)
 - Price Point Insights: More $25 and $50 items were sold than any others.
 
-
+![Summary](Summary.png)
   
 ### Insights Deep Dive
 #### Category Performance: 
-Electronics rendered the most amount of sales overall. However, its sales are nearly tied with Clothing at a $2K difference. Electronics compared to Beauty shows a $15K difference. Clothing compared to beauty shows a $13K difference.  When comparing each category’s sales to total sales, no category dominates : Electronics = 34.6%, Clothing = 34.1%, and Beauty = 31.3%. The mix is balanced.
+Electronics rendered the most amount of sales overall. However, its sales are nearly tied with Clothing at a $2K difference. Electronics compared to Beauty shows a $15K difference. Clothing compared to beauty shows a $13K difference.  When comparing each category’s sales to total sales, no category dominates: Electronics = 34.6%, Clothing = 34.1%, and Beauty = 31.3%. The mix is balanced.
 The category that made the most amount in sales was electronics, but the category with the greater number of customers and quantity sold was clothing. 
 
 #### Gender Insights: 
@@ -55,24 +57,18 @@ In looking at items sold by cost per category I found:
 The most $500 items were sold in the beauty category. 
 More $25 and $50 items were sold than any other unit price and items were in the clothing category
 
-### Data Cleaning/ Preparation
-How did you clean and prepare your data for analysis. I created a pivot table to identify how many unique product categories there were and the total amount of sales for each category. I created another pivot table to see the relationship between sales and gender.
 
-Here is my dashboard created using Tableau:
+### Recommendations
+- Develop more lower priced items or higher ticket items for all categories. (More lower priced items were sold than higher priced items)
+- Increase prices for clothing items (between $50-300) since most customers and quantities sold are for clothing. This could increase overall sales. However, increased prices could mean fewer sales.
+- How to increase customers for beauty to increase sales? Increase promotional efforts for beauty. No target audience ( show men and women 18-64).
 
-![Dashboard Preview](Dashboard.png)
+### Assumptions & Limitations:
+No repeat customers, only shows 1 year of data, not enough data to know seasonal trends or outside factors that could have impacted sales overtime. Assumes all customers only purchased from one category. There were 2 erroneous data points for Jan 1 2024. As all other data is from 2023, this data was excluded from analysis.  No customers ids were the same, so data assumes no returning customers. 
 
 
-## Results/Main Takeaways
-List three main findings in numbered format 
-
-## Recommendations 
-List in numbered format ; What actions should company take to increase revenue?
-Invest in marketing and promotion products for middle aged men geared towarrds electronics 
-
-## Limitations
-Anything that has impacted the quality of your analysis. Any outliers? Limited dataset(only one year of data)> The impact of outside factors during this year could have had an impact on sales such as the economy which could have drove sales upward or downward for certain months and categories.
-
-## Next Steps
-What are some other things the company can look at to further answer questions. Maybe if more data was given you could do more analysis?
+### Conclusion & Next Steps:
+Total sales for all categories were relatively equal. However, of all three categories, beauty had the lowest amount of sales. From my analysis I’d recommend increasing promotional efforts for beauty products. Data showed no significant difference in sales by gender and age across categories. Therefore, promotional efforts can be directed towards males and females ages 18-64. 
+There were more customers, and a greater quantity sold, for Clothing than any other category. Data suggests that increasing prices for clothing items could increase total sales.
+In the future, I’d like to compare sales by seasons and year to note any significant differences.
 
