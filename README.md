@@ -3,9 +3,9 @@
 ## Table of Contents 
 
 1. [Introduction](#introduction)
-2. [Key Findings](#key-findings)
-3. [Data Description](#data-description)
-4. [Recommendations](#recommendations)
+2. [Data Structure](#data-structure)
+3. [Executive Summary](#executive-summary)
+4. [Insights Deep Dive](#insights-deep-dive)
 5. 
 
 ### Introduction
@@ -13,14 +13,9 @@ This project explores sales performance and customer demographics of a retail st
 
 The goal of this project is to analyze this data to provide key insights and recommendations to increase future sales performance. 
 
-Tools Used: Google Sheets and Tableau 
+Data cleaning & preparation was done in Excel. The raw dataset, cleaned dataset, and exploratory pivot tables used during the inspection phase are available in the project repository [(Data)](retail_sales_dataset.xlsx).
 
-Data Cleaning & Preparation was done in Excel (provide link)
-
-The raw dataset, cleaned dataset, and exploratory pivot tables used during the inspection phase are available in the project repository (provide link).
-
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
-
+An interactive Tableau dashboard used to report and explore sales trends can be found here [(Dashboard)](https://public.tableau.com/views/RetailSales_17846031200520/Summary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 Insights and recommendations are provided on the following key areas:
 - Category Performance: comparative analysis of total sales by category
@@ -34,10 +29,11 @@ Insights and recommendations are provided on the following key areas:
 - Data Limitations: 1 year of data (2023)
 
 ### Executive Summary (Include dashboard link)
-- Category Performance : Electronics generated the highest total sales, however sales distribution is balanced across categories. 
+- Category Performance: Electronics generated the highest total sales, however sales distribution is balanced across categories. 
 - Gender Insights: Females contributed more in total sales than males. However, there was no significant difference (<5%).
 - Age Group Insights : Age of customers ranged from 18-64. There was no significant difference in total sales across age groups.  Most sales for beauty were from individuals ages 45-54. Most sales from Clothing were from individuals ages 25-34. Most sales from Electronics were from individuals ages 55+ (38k) and 35-44(36k)
 - Price Point Insights: More $25 and $50 items were sold than any others.
+  
 
 ### Insights Deep Dive
 #### Category Performance: 
@@ -58,23 +54,9 @@ In looking at items sold by cost per category I found:
 The most $500 items were sold in the beauty category. 
 More $25 and $50 items were sold than any other unit price and items were in the clothing category
 
-
-
-### Key Findings
-I found that Electronics had the most amount of sales which consisted of mostly men. 
-
-### Tools
-- Google Sheets: Data Cleaning and Analysis [Spreadsheet](link)
-- Tableau: Creating charts 
-
 ### Data Cleaning/ Preparation
 How did you clean and prepare your data for analysis. I created a pivot table to identify how many unique product categories there were and the total amount of sales for each category. I created another pivot table to see the relationship between sales and gender.
 
-## Exploratory Data Analysis 
-List questions answered in data analysis: [Queries](https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1slithe-bazaar-449622-u5!2sus-central1!3sc4e2b415-3997-4179-932d-caad703c0318!2e1)
-1. How many categores?
-2. Which category had the most amount of sales?
-3. What gender had the most amount of sales?
 Here is my dashboard created using Tableau:
 
 ![Dashboard Preview](Dashboard.png)
