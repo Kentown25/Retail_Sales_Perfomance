@@ -7,8 +7,8 @@
 3. [Executive Summary](#executive-summary)
 4. [Insights Deep Dive](#insights-deep-dive)
 5. [Recommendations](#recommendations)
-6. [Assumptions & Limitations](assumptions--limitations)
-7. [Conclusion & Next Steps](conclusion--next-steps)
+6. [Assumptions & Limitations](#assumptions--limitations)
+7. [Conclusion & Next Steps](#conclusion--next-steps)
 
 ### Introduction
 This project explores sales performance and customer demographics of a retail store across three major categories: Clothing, Electronics, and Beauty.
