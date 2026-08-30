@@ -33,8 +33,9 @@ Insights and recommendations are provided on the following key areas:
 - Gender Insights: Females contributed more in total sales than males. However, there was no significant difference (<5%).
 - Age Group Insights : Age of customers ranged from 18-64. There was no significant difference in total sales across age groups.  Most sales for beauty were from individuals ages 45-54. Most sales from Clothing were from individuals ages 25-34. Most sales from Electronics were from individuals ages 55+ (38k) and 35-44(36k)
 - Price Point Insights: More $25 and $50 items were sold than any others.
-  
 
+
+  
 ### Insights Deep Dive
 #### Category Performance: 
 Electronics rendered the most amount of sales overall. However, its sales are nearly tied with Clothing at a $2K difference. Electronics compared to Beauty shows a $15K difference. Clothing compared to beauty shows a $13K difference.  When comparing each category’s sales to total sales, no category dominates : Electronics = 34.6%, Clothing = 34.1%, and Beauty = 31.3%. The mix is balanced.
