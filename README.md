@@ -2,15 +2,15 @@
 
 ## Table of Contents 
 
-1. [Introduction](#introduction)
+1. [Project Background](#project-background)
 2. [Data Structure](#data-structure)
 3. [Executive Summary](#executive-summary)
 4. [Insights Deep Dive](#insights-deep-dive)
 5. [Recommendations](#recommendations)
 6. [Assumptions & Limitations](#assumptions--limitations)
-7. [Conclusion & Next Steps](#conclusion--next-steps)
+7. [Next Steps](next-steps)
 
-### Introduction
+### Project Background
 Retail businesses often struggle to understand how different customer segments and product categories contribute to overall sales performance. Without clear insight into which categories drive revenue, how customer demographics influence purchasing behavior, and how product pricing affects demand, it is difficult to optimize inventory, marketing, or pricing strategies. 
 
 This project analyzes retail sales data to identify patterns across product categories, gender, age groups, and price points. The goal is to uncover which categories perform best, how customer demographics shape spending, and where opportunities exist to improve sales, target marketing efforts, and refine product inventory. 
@@ -59,16 +59,19 @@ More $25 and $50 items were sold than any other unit price and items were in the
 
 
 ### Recommendations
-- Clothing has the largest customer base and highest volume of items sold. Developing bundled offers and seasonal promotions could greatly influence sales. In addition, $25-$50 are the popular price points. Expanding inventory for these price points could increase sales substantially. Furthermore, considering most clothing sales in the $300-$500 range were from individuals ages 25-34, it appears younger people would be the target market for higher priced items.
-- Beauty has the fewest number of customers, but it sells high-priced items. Developing premium product marketing, female-focused campaigns, and personalized promotions for ages 45-54 could improve sales.
-- Total spending is balanced, but more males purchased electronics which are generally high-priced. Increasing promotional efforts to males could maintain electronics sales.
+- Clothing has the largest customer base and highest volume of items sold. Developing bundled offers and seasonal promotions could greatly influence sales. Furthermore, considering most clothing sales in the $300-$500 range were from individuals ages 25-34, it appears younger people would be the target market for higher priced items.
+- Beauty has the fewest number of customers, which are majority female, and most sales are high-priced items. Developing premium product marketing, female-focused campaigns, and personalized promotions for ages 45-54 could improve sales.
+- Total spending is balanced, but more males purchased electronics. Directing promotional efforts toward males could increase sales or at least help to maintain them. 
+- Beauty and electronics have a large gap in price points that had the most units sold. For clothing, $25 and $50 were the popular price points. Expanding inventory to include mid-priced, budget-friendly options for beauty and electronics might appeal to more customers. For clothing, expanding inventory to include a greater variety of low-priced items could increase sales.
 
 ### Assumptions & Limitations:
-No repeat customers, only shows 1 year of data, not enough data to know seasonal trends or outside factors that could have impacted sales overtime. Assumes all customers only purchased from one category. There were 2 erroneous data points for Jan 1 2024. As all other data is from 2023, this data was excluded from analysis.  No customers ids were the same, so data assumes no returning customers. 
+- Only shows 1 year of data, not enough data to know seasonal trends or outside factors that could have impacted sales overtime.
+- Assumes all customers only purchased from one category. 
+- There were 2 erroneous data points for Jan 1 2024. As all other data is from 2023, this data was excluded from analysis.
+- No customers ids were the same, so data assumes no returning customers. 
 
 
-### Conclusion & Next Steps:
-Total sales for all categories were relatively equal. However, of all three categories, Beauty had the lowest amount of sales. From my analysis I’d recommend breaking down increasing promotional efforts for beauty products. Data showed no significant difference in sales by gender and age across categories. Therefore, promotional efforts can be directed towards males and females ages 18-64. 
-There were more customers, and a greater quantity sold, for Clothing than any other category. Data suggests that increasing prices for clothing items could increase total sales.
-In the future, I’d like to compare sales by seasons and year to note any significant differences. I'd also like to find which products are driving sales for each category. This dataset has no repeat customers, so gathering more data to analyze repeat customer buying behavior would be ideal to potentially develop loyalty programs to maximize profits.
-
+### Next Steps:
+- Gather more data to compare sales by seasons and year to note any significant differences.
+- Find which products are driving sales for each category.
+- Gatthering more data to analyze repeat customer buying behavior would be ideal to potentially develop loyalty programs to maximize profits.
