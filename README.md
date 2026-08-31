@@ -53,9 +53,8 @@ Across all categories, 25-34 and 45-54 contributed the most amount in sales tied
 The fewest number of customers and lowest total sales was for Beauty. Males who purchased beauty were mainly 45-54 year olds and this age group generated the most in total sales for beauty. For females most customers were ages 45-54, however, the most sales were from the 35-44 age group. 
 
 #### Price Point Analysis: 
-In looking at items sold by cost per category I found:
 The highest priced items ($500) were sold in the beauty and electronics category. 
-More $25 and $50 items were sold than any other unit price and items were in the clothing category
+More $25 and $50 items were sold than any other unit price and items were in the clothing category.  Overall popular categories for low-priced items were clothing and electronics.
 
 
 ### Recommendations
