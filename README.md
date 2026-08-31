@@ -11,30 +11,30 @@
 7. [Conclusion & Next Steps](#conclusion--next-steps)
 
 ### Introduction
-This project explores sales performance and customer demographics of a retail store across three major categories: Clothing, Electronics, and Beauty.
+Retail businesses often struggle to understand how different customer segments and product categories contribute to overall sales performance. Without clear insight into which categories drive revenue, how customer demographics influence purchasing behavior, and how product pricing affects demand, it is difficult to optimize inventory, marketing, or pricing strategies. 
 
-The goal of this project is to analyze this data to provide key insights and recommendations to increase future sales performance. 
+This project analyzes retail sales data to identify patterns across product categories, gender, age groups, and price points. The goal is to uncover which categories perform best, how customer demographics shape spending, and where opportunities exist to improve sales, target marketing efforts, and refine product inventory. 
 
-Data cleaning & preparation was done in Excel. The raw dataset, cleaned dataset, and exploratory pivot tables used during the inspection phase are available in the project repository [(Data)](retail_sales_dataset.xlsx).
+Data cleaning & preparation was done in Excel. The raw dataset, cleaned dataset, pivot tables, and a data cleaning log to document transformations can be found here: [(Data)](retail_sales_dataset.xlsx).
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [(Dashboard)](https://public.tableau.com/views/RetailSales_17846031200520/Summary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+An interactive Tableau dashboard used to report and explore sales trends can be found here: [(Dashboard)](https://public.tableau.com/views/RetailSales_17846031200520/Summary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 Insights and recommendations are provided on the following key areas:
-- Category Performance: comparative analysis of total sales by category
-- Gender Insights: Compare buying behavior of males and females
-- Age Group Insights: Ages range from 18-64 and were broken down into five groups; Under 25, 25-34, 35-44, 44-54, and 55+. Spending behavior of each group is analyzed
-- Price Point Insights: Prices were $25, $30, $50, $300, and $500. Analysis of prices that had the most sales and their demographic makeup.
+- **Category Performance**: Comparative analysis of product categories and their impact on sales. Categories include Beauty, Clothing, and Electronics.
+- **Gender Insights**: Analysis of buying behavior of males and females across categories.
+- **Age Group Insight**s: An analysis of customer age and their buying behavior. Ages range from 18-64 and were broken down into five groups; Under 25, 25-34, 35-44, 44-54, and 55+. 
+- **Price Point Insights**: An evaluation of sales and demographics by price. Prices were $25, $30, $50, $300, and $500. 
 
 ### Data Structure:
-- Data Source: Kaggle, includes 1000 rows and 9 columns.
+- Data Source: Kaggle, includes 998 rows and 9 columns.
 - Key Variables: Transaction ID, Date. Customer ID, Age, Gender. Product Category, Quantity, Price per Unit, and Total Amount.
 - Data Limitations: 1 year of data (2023)
 
 ### Executive Summary
-- Category Performance: Electronics generated the highest total sales, however sales distribution is balanced across categories. 
-- Gender Insights: Females contributed more in total sales than males. However, there was no significant difference (<5%).
-- Age Group Insights: Age of customers ranged from 18-64. There was no significant difference in total sales across age groups.  Most sales for beauty were from individuals ages 45-54. Most sales from Clothing were from individuals ages 25-34. Most sales from Electronics were from individuals ages 55+ (38k) and 35-44(36k)
-- Price Point Insights: More $25 and $50 items were sold than any others.
+- **Category Performance:** Electronics generated the highest total sales, however sales distribution is balanced across categories. 
+- **Gender Insights:** Females contributed more in total sales than males. However, there was no significant difference (<5%).
+- **Age Group Insights:** Most sales for beauty were from individuals ages 45-54. Most sales from Clothing were from individuals ages 25-34. Most sales from Electronics were from individuals ages 55+ (38k) and 35-44(36k).
+- **Price Point Insights:** More $25 and $50 items were sold than any others.
 
 ![Summary](Summary.png)
   
@@ -54,21 +54,21 @@ The fewest number of customers and lowest total sales was for Beauty. Males who 
 
 #### Price Point Analysis: 
 In looking at items sold by cost per category I found:
-The most $500 items were sold in the beauty category. 
+The highest priced items ($500) were sold in the beauty and electronics category. 
 More $25 and $50 items were sold than any other unit price and items were in the clothing category
 
 
 ### Recommendations
-- Develop more lower priced items or higher ticket items for all categories. (More lower priced items were sold than higher priced items)
-- Increase prices for clothing items (between $50-300) since most customers and quantities sold are for clothing. This could increase overall sales. However, increased prices could mean fewer sales.
-- How to increase customers for beauty to increase sales? Increase promotional efforts for beauty. No target audience ( show men and women 18-64).
+- Clothing has the largest customer base and highest volume of items sold. Developing bundled offers and seasonal promotions could greatly influence sales. In addition, $25-$50 are the popular price points. Expanding inventory for these price points could increase sales substantially. Furthermore, considering most clothing sales in the $300-$500 range were from individuals ages 25-34, it appears younger people would be the target market for higher priced items.
+- Beauty has the fewest number of customers, but it sells high-priced items. Developing premium product marketing, female-focused campaigns, and personalized promotions for ages 45-54 could improve sales.
+- Total spending is balanced, but more males purchased electronics which are generally high-priced. Increasing promotional efforts to males could maintain electronics sales.
 
 ### Assumptions & Limitations:
 No repeat customers, only shows 1 year of data, not enough data to know seasonal trends or outside factors that could have impacted sales overtime. Assumes all customers only purchased from one category. There were 2 erroneous data points for Jan 1 2024. As all other data is from 2023, this data was excluded from analysis.  No customers ids were the same, so data assumes no returning customers. 
 
 
 ### Conclusion & Next Steps:
-Total sales for all categories were relatively equal. However, of all three categories, beauty had the lowest amount of sales. From my analysis I’d recommend increasing promotional efforts for beauty products. Data showed no significant difference in sales by gender and age across categories. Therefore, promotional efforts can be directed towards males and females ages 18-64. 
+Total sales for all categories were relatively equal. However, of all three categories, Beauty had the lowest amount of sales. From my analysis I’d recommend breaking down increasing promotional efforts for beauty products. Data showed no significant difference in sales by gender and age across categories. Therefore, promotional efforts can be directed towards males and females ages 18-64. 
 There were more customers, and a greater quantity sold, for Clothing than any other category. Data suggests that increasing prices for clothing items could increase total sales.
-In the future, I’d like to compare sales by seasons and year to note any significant differences.
+In the future, I’d like to compare sales by seasons and year to note any significant differences. I'd also like to find which products are driving sales for each category. This dataset has no repeat customers, so gathering more data to analyze repeat customer buying behavior would be ideal to potentially develop loyalty programs to maximize profits.
 
