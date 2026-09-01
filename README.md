@@ -42,13 +42,15 @@ Below is the summary page for the Tableau dashboard.
 - Electronics leads in total sales. However, its sales are nearly tied with Clothing at a $2K difference. Electronics compared to Beauty shows a $15K difference in total sales. Clothing compared to Beauty shows a $13K difference.
 - When comparing each category’s sales to total sales, no category dominates: Electronics = 34.6%, Clothing = 34.1%, and Beauty = 31.3%. The mix is balanced.
 - Though electronics leads in total sales, Clothing had the greatest number of customers and quantity sold.
-  ! upload image 
+
+![Customers by Category](customersbycategory.png)  
 
 #### Gender Insights: 
 - There were more females than males, and females contributed a larger portion to total sales than males.
 - Total sales amount was $454K, consisting of more sales from females rather than males. There were 22 more females than males. Males made up approximately 49% of total sales while females made up approximately 51% of total sales.  There wasn’t a significant difference in total sales between males and females.
 - Females dominated sales for Clothing and Beauty. They led by $8K and $7K, respectively.  Most electronic sales were from males. Males led electronic sales by $3K. Overall, there wasn’t a significant difference in sales between genders across all categories.
--  
+
+![Total Sales by Category](Total-Sales-by-Category.png)
 
 
 #### Age Group Insights:
