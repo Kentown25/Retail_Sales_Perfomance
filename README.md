@@ -39,29 +39,29 @@ Below is the summary page for the Tableau dashboard.
   
 ### Insights Deep Dive
 #### Category Performance: 
-- Electronics leads in total sales. However, its sales are nearly tied with Clothing at a $2K difference. Electronics compared to Beauty shows a $15K difference in total sales. Clothing compared to Beauty shows a $13K difference.
+- Electronics leads in total sales. However, its sales are nearly tied with Clothing at a $2K difference. Beauty had the lowest total sales. Electronics compared to Beauty shows a $15K difference in total sales. Clothing compared to Beauty shows a $13K difference.
 - When comparing each category’s sales to total sales, no category dominates: Electronics = 34.6%, Clothing = 34.1%, and Beauty = 31.3%. The mix is balanced.
-- Though electronics leads in total sales, Clothing had the greatest number of customers and quantity sold.
+- Though electronics leads in total sales, Clothing had the greatest number of customers and quantity sold. Beauty had the lowest number of customers and quantity sold. 
 
 ![Customers by Category](Customers%20by%20Category.png)  
 
 #### Gender Insights: 
-- There were more females than males, and females contributed a larger portion to total sales than males.
-- Total sales amount was $454K, consisting of more sales from females rather than males. There were 22 more females than males. Males made up approximately 49% of total sales while females made up approximately 51% of total sales.  There wasn’t a significant difference in total sales between males and females.
-- Females dominated sales for Clothing and Beauty. They led by $8K and $7K, respectively.  Most electronic sales were from males. Males led electronic sales by $3K. Overall, there wasn’t a significant difference in sales between genders across all categories.
+- Total sales amount was $454K, and females contributed a larger portion to total sales than males, leading by 2% (males = 49%, females = 51%). Overall, this shows there wasn't a significant difference in total sales between males and females. Similarly, there were only 22 more females than males.
+- Females dominated sales for Clothing and Beauty. They led by $8K and $7K, respectively. Most electronic sales were from males. Males led electronic sales by $3K. Overall, there wasn’t a significant difference in sales between genders across all categories.
 
 ![Total](Total%20Sales%20by%20Category.png)
 
 
-
 #### Age Group Insights:
-Across all categories, 25-34 and 45-54 contributed the most amount in sales tied at 97k. In the 25-34 age group, females led by $7K. In the 45-54 age group males led by $3K.
-The fewest number of customers and lowest total sales was for Beauty. Males who purchased beauty were mainly 45-54 year olds and this age group generated the most in total sales for beauty. For females most customers were ages 45-54, however, the most sales were from the 35-44 age group. 
+- Across all categories, 25-34 and 45-54 contributed the most amount in sales, tied at 97k. Males dominated sales in the 45-54 age group with most sales going towards Beauty. Females dominated sales in the 25-34 age group with most sales going towards Clothing.
+- The fewest number of customers and lowest total sales was for Beauty, which consisted of mostly females ages 45-54. However, men in this age group generated the most in total sales. Clothing was dominated by females ages 35+, but the age group 25-34 generated the most in sales with males leading by $2K. Electronics was dominated by men ages 45+ with the most amount in sales coming from men ages 55+.
+
 
 #### Price Point Analysis: 
-The highest priced items ($500) were sold in the beauty and electronics category. 
-More $25 and $50 items were sold than any other unit price and items were in the clothing category.  Overall popular categories for low-priced items were clothing and electronics.
+- The highest priced items ($500) were sold in the beauty and electronics category. 
+- More $25 and $50 items were sold than any other unit price and items were in the clothing category.  Overall popular categories for low-priced items were clothing and electronics.
 
+![Demographic Analysis](Demographic%20Analysis.png)
 
 ### Recommendations
 - Clothing has the largest customer base and highest volume of items sold. Developing bundled offers and seasonal promotions could greatly influence sales. Furthermore, considering most clothing sales in the $300-$500 range were from individuals ages 25-34, it appears younger people would be the target market for higher priced items.
