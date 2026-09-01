@@ -15,7 +15,7 @@ Retail businesses often struggle to understand how different customer attributes
 
 This project analyzes retail sales data to identify patterns across product categories, gender, age groups, and price points. The goal is to uncover which categories perform best, how customer demographics shape spending, and where opportunities exist to improve sales, enhance target marketing efforts, and refine product inventory. 
 
-Data cleaning & preparation was done in Excel. The raw dataset, cleaned dataset, pivot tables, and a data cleaning log to document transformations can be found here: [(Data)](retail_sales_dataset.xlsx).
+Data cleaning & preparation was done in Excel. The raw dataset, cleaned dataset, pivot tables, and a data cleaning log to document transformations can be downloaded here: [(Data)](retail_sales_dataset.xlsx).
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here: [(Dashboard)](https://public.tableau.com/views/RetailSales_17846031200520/Summary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
