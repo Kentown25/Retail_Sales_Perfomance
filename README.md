@@ -39,44 +39,39 @@ Below is the summary page for the Tableau dashboard.
   
 ### Insights Deep Dive
 #### Category Performance: 
-- Electronics leads in total sales. However, its sales are nearly tied with Clothing at a $2K difference. Beauty had the lowest total sales. Electronics compared to Beauty shows a $15K difference in total sales. Clothing compared to Beauty shows a $13K difference.
+- Electronics leads in total sales. However, its sales are nearly tied with Clothing showing a $2K difference. Beauty had the lowest total sales. Electronics compared to Beauty shows a $15K difference in total sales. Clothing compared to Beauty shows a $13K difference.
 - When comparing each category’s sales to total sales, no category dominates: Electronics = 34.6%, Clothing = 34.1%, and Beauty = 31.3%. The mix is balanced.
-- Though electronics leads in total sales, Clothing had the greatest number of customers and quantity sold. Beauty had the lowest number of customers and quantity sold. 
-
-![Customers by Category](Customers%20by%20Category.png)  
+- Though Electronics leads in total sales, Clothing had the greatest number of customers and quantity sold. Beauty had the lowest number of customers and quantity sold. 
 
 #### Gender Insights: 
 - Total sales amount was $454K, and females contributed a larger portion to total sales than males, leading by 2% (males = 49%, females = 51%). Overall, this shows there wasn't a significant difference in total sales between males and females. Similarly, there were only 22 more females than males.
-- Females dominated sales for Clothing and Beauty. They led by $8K and $7K, respectively. Most electronic sales were from males. Males led electronic sales by $3K. Overall, there wasn’t a significant difference in sales between genders across all categories.
-
-![Total](Total%20Sales%20by%20Category.png)
-
+- Females dominated sales for Clothing and Beauty. They led by $8K and $7K, respectively. Most electronic sales were from males. Males led electronic sales by $3K.  
+- Most customers were from females ages 45-54. However, males dominated total sales for this age group.
 
 #### Age Group Insights:
 - Across all categories, 25-34 and 45-54 contributed the most amount in sales, tied at 97k. Males dominated sales in the 45-54 age group with most sales going towards Beauty. Females dominated sales in the 25-34 age group with most sales going towards Clothing.
-- The fewest number of customers and lowest total sales was for Beauty, which consisted of mostly females ages 45-54. However, men in this age group generated the most in total sales. Clothing was dominated by females ages 35+, but the age group 25-34 generated the most in sales with males leading by $2K. Electronics was dominated by men ages 45+ with the most amount in sales coming from men ages 55+.
-
+- The fewest number of customers and lowest total sales was for Beauty, which consisted of mostly females ages 45-54. However, men in this age group generated the most in total sales leading by $3k. Clothing was dominated by females ages 35+, but the age group 25-34 generated the most in sales with males leading by $2K. Electronics was dominated by men ages 45+ with the most amount in sales coming from men ages 55+.
 
 #### Price Point Analysis: 
-- The highest priced items ($500) were sold in the beauty and electronics category. 
-- More $25 and $50 items were sold than any other unit price and items were in the clothing category.  Overall popular categories for low-priced items were clothing and electronics.
+- The highest priced items ($500) were sold in the Beauty and Electronics category. 
+- More $25 and $50 items were sold than any other unit price and items were in the Clothing category.  Overall popular categories for low-priced items were Clothing and Electronics.
 
 ![Demographic Analysis](Demographic%20Analysis.png)
 
 ### Recommendations
-- Clothing has the largest customer base and highest volume of items sold. Developing bundled offers and seasonal promotions could greatly influence sales. Furthermore, considering most clothing sales in the $300-$500 range were from individuals ages 25-34, it appears younger people would be the target market for higher priced items.
+- Clothing has the largest customer base and highest volume of items sold. Developing bundled offers and seasonal promotions could greatly influence sales. Furthermore, considering most Clothing sales in the $300-$500 range were from individuals ages 25-34, it appears younger people would be the target market for higher priced items.
 - Beauty has the fewest number of customers, which are majority female, and most sales are high-priced items. Developing premium product marketing, female-focused campaigns, and personalized promotions for ages 45-54 could improve sales.
-- Total spending is balanced, but more males purchased electronics. Directing promotional efforts toward males could increase sales or at least help to maintain them. 
-- Beauty and electronics have a large gap in price points that had the most units sold. For clothing, $25 and $50 were the popular price points. Expanding inventory to include mid-priced, budget-friendly options for beauty and electronics might appeal to more customers. For clothing, expanding inventory to include a greater variety of low-priced items could increase sales.
+- Total spending is balanced, but more males purchased Electronics. Directing promotional efforts toward males could increase sales or at least help to maintain them. 
+- Beauty and Electronics have a large gap in price points that had the most units sold. For Clothing, $25 and $50 were the popular price points. Expanding inventory to include mid-priced, budget-friendly options for Beauty and Electronics might appeal to more consumers. For Clothing, expanding inventory to include a greater variety of low-priced items could increase sales.
 
 ### Assumptions & Limitations:
 - Only shows 1 year of data, not enough data to know seasonal trends or outside factors that could have impacted sales overtime.
 - Assumes all customers only purchased from one category. 
 - There were 2 erroneous data points for Jan 1 2024. As all other data is from 2023, this data was excluded from analysis.
-- No customers ids were the same, so data assumes no returning customers. 
+- No customer ids were the same, so data assumes no returning customers. 
 
 
 ### Next Steps:
 - Gather more data to compare sales by seasons and year to note any significant differences.
 - Find which products are driving sales for each category.
-- Gatthering more data to analyze repeat customer buying behavior would be ideal to potentially develop loyalty programs to maximize profits.
+- Gather more data to analyze repeat customer buying behavior to potentially develop loyalty programs to maximize profits.
