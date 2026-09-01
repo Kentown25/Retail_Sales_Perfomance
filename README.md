@@ -11,9 +11,9 @@
 7. [Next Steps](next-steps)
 
 ### Project Background
-Retail businesses often struggle to understand how different customer segments and product categories contribute to overall sales performance. Without clear insight into which categories drive revenue, how customer demographics influence purchasing behavior, and how product pricing affects demand, it is difficult to optimize inventory, marketing, or pricing strategies. 
+Retail businesses often struggle to understand how different customer attributes and product categories contribute to overall sales performance. Without a clear understanding of which categories drive sales, how customer demographics influence purchasing behavior, and how product pricing affects demand, it is difficult to optimize inventory, marketing, or pricing strategies. 
 
-This project analyzes retail sales data to identify patterns across product categories, gender, age groups, and price points. The goal is to uncover which categories perform best, how customer demographics shape spending, and where opportunities exist to improve sales, target marketing efforts, and refine product inventory. 
+This project analyzes retail sales data to identify patterns across product categories, gender, age groups, and price points. The goal is to uncover which categories perform best, how customer demographics shape spending, and where opportunities exist to improve sales, enhance target marketing efforts, and refine product inventory. 
 
 Data cleaning & preparation was done in Excel. The raw dataset, cleaned dataset, pivot tables, and a data cleaning log to document transformations can be found here: [(Data)](retail_sales_dataset.xlsx).
 
@@ -21,7 +21,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 Insights and recommendations are provided on the following key areas:
 - **Category Performance**: Comparative analysis of product categories and their impact on sales. Categories include Beauty, Clothing, and Electronics.
-- **Gender Insights**: Analysis of buying behavior of males and females across categories.
+- **Gender Insights**: An analysis of buying behavior of males and females across categories.
 - **Age Group Insight**s: An analysis of customer age and their buying behavior. Ages range from 18-64 and were broken down into five groups; Under 25, 25-34, 35-44, 44-54, and 55+. 
 - **Price Point Insights**: An evaluation of sales and demographics by price. Prices were $25, $30, $50, $300, and $500. 
 
@@ -31,21 +31,24 @@ Insights and recommendations are provided on the following key areas:
 - Data Limitations: 1 year of data (2023)
 
 ### Executive Summary
-- **Category Performance:** Electronics generated the highest total sales, however sales distribution is balanced across categories. 
-- **Gender Insights:** Females contributed more in total sales than males. However, there was no significant difference (<5%).
-- **Age Group Insights:** Most sales for beauty were from individuals ages 45-54. Most sales from Clothing were from individuals ages 25-34. Most sales from Electronics were from individuals ages 55+ (38k) and 35-44(36k).
-- **Price Point Insights:** More $25 and $50 items were sold than any others.
+Overall, the analysis reveals a balanced distribution of sales across categories, minimal demographic differences, and clear patterns in price‑driven purchasing behavior. Electronics leads in total sales, Clothing leads in customer volume, and Beauty shows concentrated demand for high-priced items. The following sections will further explain these findings and highlight opportunities for improvement.
+
+Below is the summary page for the Tableau dashboard. 
 
 ![Summary](Summary.png)
   
 ### Insights Deep Dive
 #### Category Performance: 
-Electronics rendered the most amount of sales overall. However, its sales are nearly tied with Clothing at a $2K difference. Electronics compared to Beauty shows a $15K difference. Clothing compared to beauty shows a $13K difference.  When comparing each category’s sales to total sales, no category dominates: Electronics = 34.6%, Clothing = 34.1%, and Beauty = 31.3%. The mix is balanced.
-The category that made the most amount in sales was electronics, but the category with the greater number of customers and quantity sold was clothing. 
+- Electronics leads in total sales. However, its sales are nearly tied with Clothing at a $2K difference. Electronics compared to Beauty shows a $15K difference in total sales. Clothing compared to Beauty shows a $13K difference.
+- When comparing each category’s sales to total sales, no category dominates: Electronics = 34.6%, Clothing = 34.1%, and Beauty = 31.3%. The mix is balanced.
+- Though electronics leads in total sales, Clothing had the greatest number of customers and quantity sold.
+  ! upload image 
 
 #### Gender Insights: 
-There were more females than males, and females contributed a larger portion to total sales than males. Total sales amount was $454K, consisting of more sales from females rather than males. There were 22 more females than males. Males made up approximately 49% of total sales while females made up approximately 51% of total sales.  There wasn’t a significant difference in total sales between males and females.
-Most beauty and clothing sales were from females. For beauty, females led sales by $8K. For clothing, females led sales by $7K. Most electronic sales were from males. Males led electronic sales by $3K. Overall, there wasn’t a significant difference in sales between genders across all categories. 
+- There were more females than males, and females contributed a larger portion to total sales than males.
+- Total sales amount was $454K, consisting of more sales from females rather than males. There were 22 more females than males. Males made up approximately 49% of total sales while females made up approximately 51% of total sales.  There wasn’t a significant difference in total sales between males and females.
+- Females dominated sales for Clothing and Beauty. They led by $8K and $7K, respectively.  Most electronic sales were from males. Males led electronic sales by $3K. Overall, there wasn’t a significant difference in sales between genders across all categories.
+-  
 
 
 #### Age Group Insights:
