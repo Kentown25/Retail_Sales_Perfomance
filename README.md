@@ -8,7 +8,7 @@
 4. [Insights Deep Dive](#insights-deep-dive)
 5. [Recommendations](#recommendations)
 6. [Assumptions & Limitations](#assumptions--limitations)
-7. [Next Steps](next-steps)
+7. [Next Steps](#next-steps)
 
 ### Project Background
 Retail businesses often struggle to understand how different customer attributes and product categories contribute to overall sales performance. Without a clear understanding of which categories drive sales, how customer demographics influence purchasing behavior, and how product pricing affects demand, it is difficult to optimize inventory, marketing, or pricing strategies. 
