@@ -45,7 +45,7 @@ Below is the summary page for the Tableau dashboard.
 
 #### Gender Insights: 
 - Total sales amount was $454K, and females contributed a larger portion to total sales than males, leading by 2% (males = 49%, females = 51%). Overall, this shows there wasn't a significant difference in total sales between males and females. Similarly, there were only 22 more females than males.
-- Females dominated sales for Clothing and Beauty. They led by $8K and $7K, respectively. Most electronic sales were from males. Males led electronic sales by $3K.  
+- Females dominated sales for Clothing and Beauty. They led by $8K and $7K, respectively. Most sales for Electronics were from males with a $3K lead.  
 - Most customers were from females ages 45-54. However, males dominated total sales for this age group.
 
 #### Age Group Insights:
