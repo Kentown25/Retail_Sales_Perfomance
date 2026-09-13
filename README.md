@@ -17,6 +17,8 @@ This project analyzes retail sales data to identify patterns across product cate
 
 Data cleaning & preparation was done in Excel. The raw dataset, cleaned dataset, pivot tables, and a data cleaning log to document transformations can be downloaded here: [(Data)](retail_sales_dataset.xlsx).
 
+The SQl queries used to inspect data for analysis can be found here 
+
 An interactive Tableau dashboard used to report and explore sales trends can be found here: [(Dashboard)](https://public.tableau.com/views/RetailSales_17846031200520/Summary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 Insights and recommendations are provided on the following key areas:
@@ -40,12 +42,20 @@ Below is the summary page for the Tableau dashboard.
 ### Insights Deep Dive
 #### Category Performance: 
 - Electronics leads in total sales. However, its sales are nearly tied with Clothing showing a $2K difference. Beauty had the lowest total sales. Electronics compared to Beauty shows a $15K difference in total sales. Clothing compared to Beauty shows a $13K difference.
+<p align="center">
+<img width="293" height="76" alt="image" src="https://github.com/user-attachments/assets/a3762cc0-76f5-4e68-bf8e-0a5a8b182d79" />
+</p>
+
 - When comparing each category’s sales to total sales, no category dominates: Electronics = 34.6%, Clothing = 34.1%, and Beauty = 31.3%. The mix is balanced.
 - Though Electronics leads in total sales, Clothing had the greatest number of customers and quantity sold. Beauty had the lowest number of customers and quantity sold. 
 
 #### Gender Insights: 
 - Total sales amount was $454K, and females contributed a larger portion to total sales than males, leading by 2% (males = 49%, females = 51%). Overall, this shows there wasn't a significant difference in total sales between males and females. Similarly, there were only 22 more females than males.
-- Females dominated sales for Clothing and Beauty. They led by $8K and $7K, respectively. Most sales for Electronics were from males with a $3K lead.  
+- Females dominated sales for Clothing and Beauty. They led by $8K and $7K, respectively. Most sales for Electronics were from males with a $3K lead.
+<p align="center">
+<img width="443" height="148" alt="image" src="https://github.com/user-attachments/assets/3d57ebc7-c4e9-4937-b357-6e6583499c45" />
+</p>
+
 - Most customers were from females ages 45-54. However, males dominated total sales for this age group.
 
 #### Age Group Insights:
